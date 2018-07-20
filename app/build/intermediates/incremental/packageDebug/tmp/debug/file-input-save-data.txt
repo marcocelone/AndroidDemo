@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Jul 19 20:32:48 PDT 2018
+0.baseType=DIRECTORY
+0.base=/Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/build/intermediates/transforms/dexMerger/debug/56
+0.path=classes.dex
+0.set=DEX
+count=1

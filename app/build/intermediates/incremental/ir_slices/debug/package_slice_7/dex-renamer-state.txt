@@ -1,0 +1,4 @@
+#Tue Jul 17 01:02:35 PDT 2018
+base.0=/Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/build/intermediates/transforms/dexMerger/debug/45
+path.0=classes.dex
+renamed.0=classes.dex

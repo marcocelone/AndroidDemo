@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:design:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8e27420f9598e1cc6bb638f3df721147/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f0a86f5ab6e4d5b1485f1bdaece1fd61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/05dd44b3441aa85d01e0f256b3e19aa2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/36bdb1900b496ae6c2e2c5ab5dcbd4d8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/5182252c66bcf47887dcb6d814d1b6b6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/31330d4ba0f55c3cebcee88d5e4cb434/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/c8173711e155308447dc8d58eb3dff0d/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b03b893dc868baa131e9931f5338ded8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/70c0992bb70765d91f14b16c3e1836c1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3caff651a2b2184c59d5ac3d6de86148/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39261d7bf5d8aaf9d75447848e17c334/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e51cc8a488da191b0d1b2eae05c7a477/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8d68b06907bc1d140554014f8b91ee59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9b19d8004f073c2993b80fb7024a6532/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f3360b958871f777bcb6cba6db605717/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8ee26c9b44d87d65dd3b462dc6e4befe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ef6bd9ec20e55ed4b03747044bb6b14f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.test:rules:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/rules-1.0.2.aar/fc24450c3f592db64aaafc063d7b71db/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.test:runner:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runner-1.0.2.aar/c9959b44f2fc8e5ffde3c74d10f4dbb2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ce8f21bef83425b9aefc5ed07a6b60a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ee0d53c0e24ae358cb1bc992a53df208/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.test:monitor:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/3f8d696b95d818db0ec2ed27d5920895/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/a4b02e51d8235b8b68085db4066fcae4/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/09223f125e859278317d102f66d7cf3a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88fbc11d026439f42377da40a6fb8d35/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/167297036ede3bb4c56cecbdb1b7168f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94ccd08ebf3b0ca295bd5f05f6cfc665/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:10:22-76
+application
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:12:5-49:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/36bdb1900b496ae6c2e2c5ab5dcbd4d8/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/36bdb1900b496ae6c2e2c5ab5dcbd4d8/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/5182252c66bcf47887dcb6d814d1b6b6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/5182252c66bcf47887dcb6d814d1b6b6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/31330d4ba0f55c3cebcee88d5e4cb434/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/31330d4ba0f55c3cebcee88d5e4cb434/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/c8173711e155308447dc8d58eb3dff0d/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/c8173711e155308447dc8d58eb3dff0d/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b03b893dc868baa131e9931f5338ded8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b03b893dc868baa131e9931f5338ded8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/70c0992bb70765d91f14b16c3e1836c1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/70c0992bb70765d91f14b16c3e1836c1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/a4b02e51d8235b8b68085db4066fcae4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/a4b02e51d8235b8b68085db4066fcae4/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:19:9-28
+activity#com.mytaxi.android_demo.activities.MainActivity
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:label
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:21:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:27:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:38:9-40:55
+	android:value
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:40:13-52
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:39:13-58
+activity#com.mytaxi.android_demo.activities.DriverProfileActivity
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:42:9-45:68
+	android:label
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:44:13-66
+	android:theme
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:43:13-61
+activity#com.mytaxi.android_demo.activities.AuthenticationActivity
+ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:46:9-48:78
+	android:label
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:48:13-66
+	android:name
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml:47:13-62
+uses-sdk
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8e27420f9598e1cc6bb638f3df721147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8e27420f9598e1cc6bb638f3df721147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f0a86f5ab6e4d5b1485f1bdaece1fd61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f0a86f5ab6e4d5b1485f1bdaece1fd61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/05dd44b3441aa85d01e0f256b3e19aa2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/05dd44b3441aa85d01e0f256b3e19aa2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/36bdb1900b496ae6c2e2c5ab5dcbd4d8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/36bdb1900b496ae6c2e2c5ab5dcbd4d8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/5182252c66bcf47887dcb6d814d1b6b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/5182252c66bcf47887dcb6d814d1b6b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/31330d4ba0f55c3cebcee88d5e4cb434/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/31330d4ba0f55c3cebcee88d5e4cb434/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/c8173711e155308447dc8d58eb3dff0d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/c8173711e155308447dc8d58eb3dff0d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b03b893dc868baa131e9931f5338ded8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b03b893dc868baa131e9931f5338ded8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/70c0992bb70765d91f14b16c3e1836c1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/70c0992bb70765d91f14b16c3e1836c1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3caff651a2b2184c59d5ac3d6de86148/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/3caff651a2b2184c59d5ac3d6de86148/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39261d7bf5d8aaf9d75447848e17c334/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/39261d7bf5d8aaf9d75447848e17c334/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e51cc8a488da191b0d1b2eae05c7a477/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e51cc8a488da191b0d1b2eae05c7a477/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8d68b06907bc1d140554014f8b91ee59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8d68b06907bc1d140554014f8b91ee59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9b19d8004f073c2993b80fb7024a6532/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9b19d8004f073c2993b80fb7024a6532/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f3360b958871f777bcb6cba6db605717/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f3360b958871f777bcb6cba6db605717/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8ee26c9b44d87d65dd3b462dc6e4befe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8ee26c9b44d87d65dd3b462dc6e4befe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ef6bd9ec20e55ed4b03747044bb6b14f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/ef6bd9ec20e55ed4b03747044bb6b14f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.test:rules:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/rules-1.0.2.aar/fc24450c3f592db64aaafc063d7b71db/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:rules:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/rules-1.0.2.aar/fc24450c3f592db64aaafc063d7b71db/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:runner:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runner-1.0.2.aar/c9959b44f2fc8e5ffde3c74d10f4dbb2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:runner:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runner-1.0.2.aar/c9959b44f2fc8e5ffde3c74d10f4dbb2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ce8f21bef83425b9aefc5ed07a6b60a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/3ce8f21bef83425b9aefc5ed07a6b60a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ee0d53c0e24ae358cb1bc992a53df208/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/ee0d53c0e24ae358cb1bc992a53df208/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.test:monitor:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/3f8d696b95d818db0ec2ed27d5920895/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.test:monitor:1.0.2] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/monitor-1.0.2.aar/3f8d696b95d818db0ec2ed27d5920895/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/a4b02e51d8235b8b68085db4066fcae4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/a4b02e51d8235b8b68085db4066fcae4/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/09223f125e859278317d102f66d7cf3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/09223f125e859278317d102f66d7cf3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88fbc11d026439f42377da40a6fb8d35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/88fbc11d026439f42377da40a6fb8d35/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/167297036ede3bb4c56cecbdb1b7168f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/167297036ede3bb4c56cecbdb1b7168f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94ccd08ebf3b0ca295bd5f05f6cfc665/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/94ccd08ebf3b0ca295bd5f05f6cfc665/AndroidManifest.xml:20:5-44
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/1430c52e43eba92202335e0d17ed722a/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/272dacf214e054847ece7952742502bb/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/marcocelone/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/75079bdebd5961fe6041145d9b238576/AndroidManifest.xml:24:13-58
