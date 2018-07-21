@@ -6,6 +6,9 @@ jobs:
       - image: circleci/android:api-25-alpha
     environment:
       JVM_OPTS: -Xmx3200m
+    dependencies:
+      pre:
+        - echo y | android update sdk --no-ui --all --filter 26.0.1
     steps:
       - checkout
       - restore_cache:
