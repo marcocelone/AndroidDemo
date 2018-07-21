@@ -12,12 +12,10 @@ dependencies:
         - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
 
 test:
-    minitest_globs:
-        - androidTest/com.mytaxi.android_demo/activities/*.kt
     override:
         - # start the emulator
         # start the emulator
-        - emulator -avd circleci-android25 -no-window:
+        - emulator -avd circleci-android24 -no-window:
           background: true
           parallel: true
       # wait for it to have booted
