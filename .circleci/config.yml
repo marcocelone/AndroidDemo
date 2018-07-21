@@ -19,7 +19,7 @@ jobs:
     environment:
       # Customize the JVM maximum heap limit
       JVM_OPTS: -Xmx3200m
-      ANDROID_HOME: /usr/local/android-sdk-linux
+      TERM: dumb
     
     branches:
       ignore:
@@ -32,7 +32,7 @@ jobs:
           command: git clone https://github.com/marcocelone/AndroidDemo.git
       - run:
           name: Copy Licenses
-          command: sudo cp -r licenses/. $ANDROID_HOME/licenses
+          command: echo $ANDROID_HOME | sudo cp -r licenses/. $ANDROID_HOME/licenses
 
       # Download and cache dependencies
       - restore_cache:
