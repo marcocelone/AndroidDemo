@@ -21,7 +21,9 @@ jobs:
       # Customize the JVM maximum heap limit
       JVM_OPTS: -Xmx3200m
       TERM: dumb
-      - sudo ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
+      ANDROID_HOME: /usr/local/android-sdk-linux
+
+      -run: sudo ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
     
     steps:
       - run:
