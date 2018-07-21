@@ -24,7 +24,7 @@ jobs:
           name: Run Tests
 
       # run tests!
-      - run: ./gradlew test
+      #- run: ./gradlew test
   test:
     override:
       # start the emulator
