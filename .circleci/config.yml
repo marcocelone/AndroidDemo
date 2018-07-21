@@ -32,6 +32,9 @@ jobs:
           name: Download Repo
           command: git clone https://github.com/marcocelone/AndroidDemo.git
       - run:
+          name: Set up android home
+          command: sudo export ANDROID_HOME=/usr/local/android-sdk-linux
+      - run:
           name: Copy Licenses
           command: sudo cp -r licenses/. $ANDROID_HOME/licenses
 
