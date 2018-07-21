@@ -1,37 +1,39 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/code
     docker:
-      # specify the version you desire here
-      - image: circleci/openjdk:8-jdk
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
-
-    working_directory: ~/repo
-
-      # Generate apk
-      - run: ./gradlew assembleDebug
-
-      # Upload app to BrowserStack and set app url in an environment variable.
-      # Here replace app-debug.apk with name of your apk.
+      - image: circleci/android:api-25-alpha
+    environment:
+      JVM_OPTS: -Xmx3200m
+    steps:
+      - checkout
+      - restore_cache:
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
       - run:
-          name : App upload and Set app id in environment variable.
-          command : |
-            APP_UPLOAD_RESPONSE=$(curl -u "marcocelone2:jAqdv3LePabF1XkQpRqr" -X POST https://api-cloud.browserstack.com/app-automate/upload -F "file=@app/build/outputs/apk/debug/mytaxi-demo.apk")
-            APP_ID=$(echo $APP_UPLOAD_RESPONSE | jq -r ".app_url")
-            if [ $APP_ID != null ]; then
-              echo "Apk uploaded to BrowserStack with app id : ",$APP_ID;
-              echo "export BROWSERSTACK_APP_ID=$APP_ID" >> $BASH_ENV;
-              source $BASH_ENV;
-              echo "Setting value of BROWSERSTACK_APP_ID in environment variables to  ",$APP_ID;
-            else
-              UPLOAD_ERROR_MESSAGE=$(echo $APP_UPLOAD_RESPONSE | jq -r ".error")
-              echo "App upload failed, reason : ",$UPLOAD_ERROR_MESSAGE
-              exit 1;
-            fi
-
-      # run tests!
-      - run: ./gradlew connectedAndroidTest -PdisablePreDex
+        name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
+         command: sudo chmod +x ./gradlew
+      - run:
+          name: Download Dependencies
+          command: ./gradlew androidDependencies
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+      - emulator -avd circleci-android22 -no-audio -no-window:
+              background: true
+              parallel: true
+          # wait for it to have booted
+      - circle-android wait-for-boot
+          # unlock the emulator screen
+          - sleep 30
+          - adb shell input keyevent 82
+      - run:
+          name: Run Tests
+          command: ./gradlew connectedAndroidTest -PdisablePreDex
+      - store_artifacts:
+          path: app/build/reports
+          destination: reports
+      - store_test_results:
+          path: app/build/test-results
+      # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
