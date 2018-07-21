@@ -23,9 +23,12 @@ jobs:
       TERM: dumb
       ANDROID_HOME: /usr/local/android-sdk-linux
 
-      -run: sudo ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
+
     
     steps:
+
+      -run: |
+          sudo ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
       - run:
           name: Store Service Account
           command: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
