@@ -39,20 +39,15 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # run tests!
-      - run: gradle test
+      - run: gradle test 
 
-  test:
-      pre:
-          - android list avd
           - emulator -avd tv-img -no-audio -no-window:
               background: true
               parallel: true
           - circle-android wait-for-boot
 
-      override:
           # This will run the tests:
           - ./gradlew assemble connectedDebugAndroidTest -PdisablePreDex --console=plain --info
 
-      post:
           - cp -r app/build/outputs $CIRCLE_ARTIFACTS
           - cp -r app/build/outputs/androidTest-results/connected/ $CIRCLE_TEST_REPORTS
