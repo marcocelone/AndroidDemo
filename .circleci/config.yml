@@ -23,6 +23,9 @@ jobs:
     
     steps:
       - checkout
+      - run:
+          name: Copy Licenses
+          command: cp -r licenses/. $ANDROID_HOME/licenses
 
       # Download and cache dependencies
       - restore_cache:
