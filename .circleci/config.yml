@@ -41,7 +41,18 @@ jobs:
       # run tests!
       - run: gradle test
 
-      test:
-  post:
-    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-    - find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+  test:
+      pre:
+          - android list avd
+          - emulator -avd tv-img -no-audio -no-window:
+              background: true
+              parallel: true
+          - circle-android wait-for-boot
+
+      override:
+          # This will run the tests:
+          - ./gradlew assemble connectedDebugAndroidTest -PdisablePreDex --console=plain --info
+
+      post:
+          - cp -r app/build/outputs $CIRCLE_ARTIFACTS
+          - cp -r app/build/outputs/androidTest-results/connected/ $CIRCLE_TEST_REPORTS
