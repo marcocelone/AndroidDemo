@@ -1,0 +1,98 @@
+CircleCI Home Product  Pricing Enterprise Developers  Company Support  Go to app
+Section:  
+ 2.0 Docs
+Developers
+1.0 to 2.0 Migration
+Example Configs
+Tutorials and Sample Apps
+Basics
+Workflows
+Docker, Machine, and iOS Builds
+Test and Deploy
+Reference
+Server Administrators
+Overview
+Trial
+FAQ
+Upgrade
+Security
+Certificates
+Proxies
+Installation
+Authentication
+Monitoring
+Nomad
+Backup
+Troubleshooting
+GPU Builders
+Configuring VM Service
+Acknowledgments
+
+Search CircleCI 2.0 docs
+Language Guide: Android
+Tutorials & 2.0 Demo Apps > Language Guide: Android
+
+This guide will help you get started with an Android application on CircleCI.
+
+Overview
+Sample Configuration
+Config Walkthrough
+Docker Images
+API Levels
+Alpha Tag
+Customizing the Images
+React Native projects
+Deploy
+Overview
+There are some assumptions made in this guide:
+
+We assume that your Android project is built with gradle (this is the default for projects created with Android Studio.
+We assume that your project is located in the root of your git repository, with the application located in a subfolder named app.
+Running the Android emulator is not currently supported by the type of virtualization CircleCI 2.0 uses on Linux. To run emulator tests from a job, consider using an external service like Firebase Test Lab. To do this, you can use the gcloud command line. Google Cloud tools are preinstalled in our Android Docker images, which you can find on GitHub or Docker Hub.
+
+Sample Configuration
+version: 2
+jobs:
+  build:
+    working_directory: ~/code
+    docker:
+      - image: circleci/android:api-25-alpha
+    environment:
+      JVM_OPTS: -Xmx3200m
+    steps:
+      - checkout
+      - restore_cache:
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+#      - run:
+#         name: Chmod permissions #if permission for Gradlew Dependencies fail, use this. 
+#         command: sudo chmod +x ./gradlew
+      - run:
+          name: Download Dependencies
+          command: ./gradlew androidDependencies
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
+      # Generate apk
+      - run: ./gradlew assembleDebug
+
+      # Upload app to BrowserStack and set app url in an environment variable.
+      # Here replace app-debug.apk with name of your apk.
+      - run:
+          name : App upload and Set app id in environment variable.
+          command : |
+            APP_UPLOAD_RESPONSE=$(curl -u "marcocelone2:jAqdv3LePabF1XkQpRqr" -X POST https://api-cloud.browserstack.com/app-automate/upload -F "file=@app/build/outputs/apk/debug/app-debug.apk")
+            APP_ID=$(echo $APP_UPLOAD_RESPONSE | jq -r ".app_url")
+            if [ $APP_ID != null ]; then
+              echo "Apk uploaded to BrowserStack with app id : ",$APP_ID;
+              echo "export BROWSERSTACK_APP_ID=$APP_ID" >> $BASH_ENV;
+              source $BASH_ENV;
+              echo "Setting value of BROWSERSTACK_APP_ID in environment variables to  ",$APP_ID;
+            else
+              UPLOAD_ERROR_MESSAGE=$(echo $APP_UPLOAD_RESPONSE | jq -r ".error")
+              echo "App upload failed, reason : ",$UPLOAD_ERROR_MESSAGE
+              exit 1;
+            fi
+
+      # run tests!
+      - run: ./gradlew test
