@@ -34,7 +34,7 @@ jobs:
      - run:
           name: Set up android home
           command: sudo chmod -R 777 /usr/local/android-sdk-linux
-      - run:
+    - run:
           name: Copy Licenses
           command: sudo cp -r licenses/. $ANDROID_HOME/licenses
 
