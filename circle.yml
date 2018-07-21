@@ -8,14 +8,14 @@ machine:
 
 dependencies:
     override:
-        - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-27.0.3,android-27
+        - echo y | android update sdk --no-ui --all --filter android-26
         - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
 
 test:
     override:
         - # start the emulator
         # start the emulator
-        - emulator -avd circleci-android24 -no-window:
+        - emulator -avd circleci-android22 no-audio -no-window:
           background: true
           parallel: true
       # wait for it to have booted
