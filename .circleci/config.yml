@@ -21,11 +21,18 @@ jobs:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
     
+    branches:
+      ignore:
+        - develop
+        - /feature/
     steps:
       - checkout
       - run:
+          name: Download Repo
+          command: git clone https://github.com/marcocelone/AndroidDemo.git
+      - run:
           name: Copy Licenses
-          command: sudo cp -r ~/repo/licenses/* $ANDROID_HOME/licenses
+          command: sudo cp -r licenses/. $ANDROID_HOME/licenses
 
       # Download and cache dependencies
       - restore_cache:
@@ -43,6 +50,3 @@ jobs:
         
       # run tests!
       - run: gradle test
-
-
-
