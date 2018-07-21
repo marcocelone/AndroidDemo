@@ -34,13 +34,12 @@
           <option name="languageVersion" value="1.2" />
           <option name="apiVersion" value="1.2" />
           <option name="pluginOptions">
-            <array>
-              <option value="plugin:org.jetbrains.kotlin.kapt:output=/Users/marcocelone/AndroidTest2/MobileAppAutomationTest/AndroidDemo/app/build/tmp/kapt/debug/wrappers/annotations.debug.txt" />
-              <option value="plugin:org.jetbrains.kotlin.kapt:inherited=true" />
-            </array>
+            <array />
           </option>
           <option name="pluginClasspaths">
-            <array />
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.51/8cd0f527d68195e3c008302744ad319d24499cd7/kotlin-annotation-processing-gradle-1.2.51.jar" />
+            </array>
           </option>
         </compilerArguments>
       </configuration>
