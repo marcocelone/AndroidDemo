@@ -25,9 +25,7 @@ jobs:
       - checkout
       - run:
           name: Copy Licenses
-          command: |
-          pwd
-          sudo cp -r ./licenses/* $ANDROID_HOME/licenses
+          command: pwd | sudo cp -r licenses/* $ANDROID_HOME/licenses
 
       # Download and cache dependencies
       - restore_cache:
