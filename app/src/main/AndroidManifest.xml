@@ -37,7 +37,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA_u9SA-pzDxzeQmprgE39m5PmKKhRHMeQ" />
+            android:value="YOUR_KEYS" />
 
         <activity
             android:name=".activities.DriverProfileActivity"
